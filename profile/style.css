@@ -1,0 +1,60 @@
+body {
+  background-color: grey;
+}
+.upper{
+  font-family: Courier, monospace;
+  background-color: white;
+  border-top: 1px solid black;
+  border-right: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+  text-align: center;
+}
+
+.upper img {
+  max-width: 80%;
+  max-height: 40%;
+  border-radius: 25px;
+
+}
+
+.middle {
+  background-color: white;
+  border-top: 1px solid black;
+  border-right: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: blue;
+}
+
+.bottom {
+  background-color: white;
+}
+
+.bottom th {
+  font-family: Arial;
+}
+
+td .knight {
+  max-width: 50%;
+  max-height: 30%;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
